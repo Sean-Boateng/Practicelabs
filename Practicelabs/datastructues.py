@@ -1,9 +1,9 @@
 # Store the months of the year as strings. Determine the month in the data structure in which National Pi Day exists and print that month to the console. 
 # HINT: The number for Pi, when converted to an Integer, is related to the stored location of the correct month.
 
-# months_in_year = ('January', 'February', 'March', 'April',' May', 'June', 'July',' August',' September',' October', 'November', 'December')
+months_in_year = ('January', 'February', 'March', 'April',' May', 'June', 'July',' August',' September',' October', 'November', 'December')
 
-# print('National Pi day is celebrated on the 14th of '+ months_in_year[2])
+print('National Pi day is celebrated on the 14th of '+ months_in_year[2])
 
 
 
@@ -13,16 +13,16 @@
 
 
 
-# fruits_list = {'apples', 'pear', 'orange', 'banana', 'grape'}
-# my_list = {'coconut', 'mango'}
+fruits_list = {'apples', 'pear', 'orange', 'banana', 'grape'}
+my_list = {'coconut', 'mango'}
 
-# def iterate_list():
-#     new_list = fruits_list.union(my_list)
-#     print(new_list)
-#     for x in new_list:
-#         print(x)
+def iterate_list():
+    new_list = fruits_list.union(my_list)
+    print(new_list)
+    for x in new_list:
+        print(x)
 
-# testing = iterate_list()
+second_task = iterate_list()
 
 
 
@@ -35,21 +35,21 @@
 # Email Address
 # Phone Number
 
-# player = {
-#     "first_name" : "Sean",
-#     "last_name" : "Boateng",
-#     "email address" : "seanboateng2@gmail.com",
-#     "Phone Number" : "646-917-1718"
-# }
+player = {
+    "first_name" : "Sean",
+    "last_name" : "Boateng",
+    "email address" : "seanboateng2@gmail.com",
+    "Phone Number" : "646-917-1718"
+}
 
-# def inter_polation():
-#     for key, value in player.items():
-#         print("")
-#         print(f"The Key {key} has a value of {value}")
-#         print("")
+def inter_polation():
+    for key, value in player.items():
+        print("")
+        print(f"The Key {key} has a value of {value}")
+        print("")
 
 
-# last_task = inter_polation()   
+third_task = inter_polation()   
 
 
 
@@ -92,7 +92,7 @@ def task2():
     print(sis["relation"])
 
 
-testing = task2()
+last_task = task2()
 
 
 
